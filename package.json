@@ -1,0 +1,76 @@
+{
+  "name": "shimmer-effects-for-react",
+  "version": "1.0.0",
+  "description": "Shimmer effects for React",
+  "main": "dist/index.ts",
+  "keywords": [
+    "shimmer",
+    "react-shimmer",
+    "next-shimmer",
+    "category-shimmer",
+    "table-shimmer",
+    "shimmer-content",
+    "shimmer-button",
+    "shimmer-thumbnail",
+    "shimmer-circular-image",
+    "social-posts",
+    "post-details",
+    "shimmer-content-text",
+    "shimmer-title",
+    "shimmer-section-header",
+    "shimmer-gallery",
+    "shimmer-sidebar-category",
+    "shimmer-post",
+    "shimmer-post-list"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "predeploy": "cd example && npm install && npm run build",
+    "deploy": "gh-pages -d example/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libinmath3w/shimmer-effects-for-react.git"
+  },
+  "author": "Libin Mathew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/libinmath3w/shimmer-effects-for-react/issues"
+  },
+  "homepage": "https://github.com/libinmath3w/shimmer-effects-for-react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/eslint-parser": "^7.22.15",
+    "@babel/plugin-external-helpers": "^7.22.5",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
+    "@babel/preset-stage-0": "^7.8.3",
+    "classnames": "^2.3.2",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.53.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-config-standard-react": "^13.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-standard": "^4.1.0",
+    "gh-pages": "^6.0.0",
+    "node-sass": "^9.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "rollup": "^4.3.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "@rollup/plugin-url": "^8.0.2"
+  },
+  "files": [
+    "dist"
+  ]
+}
